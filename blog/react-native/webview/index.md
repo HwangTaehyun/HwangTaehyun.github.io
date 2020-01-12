@@ -70,7 +70,7 @@ react-native-webivew는 분명 android의 webview를 래핑했을것이고, 해�
 
 {% highlight js %}
 <WebView
-    source={{ uri: link }}
+    source={ { uri: link } }
     originWhitelist={['http://*', 'https://*', 'intent://*']}
     // onShouldStartLoadWithRequest={openExternalLink}
     onShouldStartLoadWithRequest={(event) => {

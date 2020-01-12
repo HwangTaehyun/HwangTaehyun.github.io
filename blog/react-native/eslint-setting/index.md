@@ -21,7 +21,7 @@ eslint 와 prettier를 같이 사용하기 위해서는 다음 두가지 module�
     * eslint의 code-formatting rule을 모두 꺼서 conflict 방지
 
 {% highlight js %}
-$ yarn add --dev eslint-plugin-perttier
+$ yarn add --dev eslint-plugin-prettier
 $ yarn add --dev eslint-config-prettier
 {% endhighlight %}
 
