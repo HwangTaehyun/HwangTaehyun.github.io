@@ -16,6 +16,14 @@ babel로 빌드할때 class를 사용하려면 @babel/plugin-proposal-class-prop
 
 그렇지 않으면 위와 같이 에러가 발생한다.
 
+```
+@babel/core 바벨 사용필수 라이브러리
+@babel/preset-env es5 트랜스파일러
+@babel/polyfill es6 의 새로운 객체와 메소드 사용 가능 처리
+@babel/preset-react 리액트 jsx를 위한 라이브러리
+@babel/plugin-proposal-class-properties class 를 사용 가능처리
+```
+
 # 🌟 해결
 
 먼저 설치해주고
