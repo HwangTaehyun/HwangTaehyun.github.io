@@ -8,7 +8,7 @@ description: Developer based in Gyeonggi-do, South Korea. | 초보 개발자입�
 <div class="intro-animation">
 <section class="explanation">
     <h1 class="intro">
-    I'm Novice Developer,
+    무엇이든 하고싶은
     </h1>
     <!--
     <h1 class="intro">a Developer at
