@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "VIM-사용 법"
+title: "VIM-사용법"
 subtitle: "VIM MODE & OPERATOR Command 정리!"
 type: "Year in Review"
 blog: true
@@ -16,25 +16,26 @@ VIM을 접하고 난지 대략 1년 반이라는 시간이 지났다. 처음 회
 먼저 VIM을 쓰면서 VIM의 다양한 command와 mode에 대해 설명하려고 한다. 나 또한 정리를 하면서 다시 곱씹을 수 있는 기회가 되면 좋겠다!
 
 # vim mode
+
 vim은 modal editor이다. 모드가 여러개 있는 editor라는 말인데..
 mode가 하나만 존재하는 가장 대표적인 editor가 바로 메모장이다. (입력 모드 정말 하나뿐)
 
 vim에는 Basic Mode 6가지와 Additional Mode 6가지가 존재한다.
 
-* Basic Mode
-  * Normal
-  * Visual
-  * Select
-  * Insert
-  * Command-line
-  * Ex
-* Additional mode
-  * Operator-pending
-  * Replace
-  * Virtual Replace
-  * Insert Normal
-  * Insert Visual
-  * Insert Select
+- Basic Mode
+  - Normal
+  - Visual
+  - Select
+  - Insert
+  - Command-line
+  - Ex
+- Additional mode
+  - Operator-pending
+  - Replace
+  - Virtual Replace
+  - Insert Normal
+  - Insert Visual
+  - Insert Select
 
 이번에 vim 공식문서를 보면서 이렇게 많이 모드가 있는 것은 처음 알았다..
 
@@ -43,18 +44,22 @@ vim에는 Basic Mode 6가지와 Additional Mode 6가지가 존재한다.
 Normal, Visual, Insert, Command-line 모드 4가지이다.
 
 - ## Insert Mode
-    Insert 모드는 말 그대로 입력 모드로 개발자가 코드를 입력할 수 있는 모드이다.
+
+  Insert 모드는 말 그대로 입력 모드로 개발자가 코드를 입력할 수 있는 모드이다.
 
 - ## Normal Mode
-    Normal 모드는 개발자의 휴식공간이다. Normal 모드에서 코드 페이지를 방향기(h, j, k, l, ctrl-d, ctrl-u ...)를 이용해 마음껏 돌아다닐 수 있고, 원하는 곳으로 가서 다시 Inset 모드로 돌아갈 수 있다!
+
+  Normal 모드는 개발자의 휴식공간이다. Normal 모드에서 코드 페이지를 방향기(h, j, k, l, ctrl-d, ctrl-u ...)를 이용해 마음껏 돌아다닐 수 있고, 원하는 곳으로 가서 다시 Inset 모드로 돌아갈 수 있다!
 
 - ## Visual Mode
-    Visual 모드는 보통 어디부터 어디까지 선택할게~ 이런 모드라고 생각하면 쉽다. 보통 어디부터 어디까지 선택해서 복붙해야지 이런 느낌으로 많이 사용한다.
+
+  Visual 모드는 보통 어디부터 어디까지 선택할게~ 이런 모드라고 생각하면 쉽다. 보통 어디부터 어디까지 선택해서 복붙해야지 이런 느낌으로 많이 사용한다.
 
 - ## Command-line Mode
-    Command-line 모드는 Normal 모드에서 :(colon)을 입력하면 switching 된다. 여기서 보통 vim의 다양한 명령모드를 입력할 수 있다. (보통 치환 명령어를 많이 사용한다. :%s/word/replace-word)
 
-    /, ?를 눌러도 Command-line모드로 진입한다. 여기서는 검색할 문자를 입력하면 현재 코드 문서내에서 검색이 가능하다!
+  Command-line 모드는 Normal 모드에서 :(colon)을 입력하면 switching 된다. 여기서 보통 vim의 다양한 명령모드를 입력할 수 있다. (보통 치환 명령어를 많이 사용한다. :%s/word/replace-word)
+
+  /, ?를 눌러도 Command-line모드로 진입한다. 여기서는 검색할 문자를 입력하면 현재 코드 문서내에서 검색이 가능하다!
 
 내가 알고 있었던 모드는 여기서 Basic Mode와 Operator-pending, Replace정도 였다.
 
