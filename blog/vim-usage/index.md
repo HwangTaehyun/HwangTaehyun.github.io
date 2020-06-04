@@ -78,8 +78,10 @@ vim help 문서에서 가져온 operator command들이다.
 # 복사는 "y" command이다.
 
 y는 yank의 줄임말로 '홱 잡아 당기다' 라는 의미를 가진다.
+
 덧붙여 Stack Exchange의 아래 글을 인용하면
-https://ell.stackexchange.com/questions/14632/why-does-yank-in-vim-mean-copy
+
+[https://ell.stackexchange.com/questions/14632/why-does-yank-in-vim-mean-copy](https://ell.stackexchange.com/questions/14632/why-does-yank-in-vim-mean-copy)
 
 vim의 buffer의 내용을 register(unnamed & yank register)로 pull (당기다 = 홱 잡아 당기다!?)의 의미를 가진다고 생각할 수 있을 것 같다. (register는 어렵게 생각하지 말고 단순히 text 저장 공간이라고 생각하면 된다.)
 
