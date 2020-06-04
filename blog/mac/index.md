@@ -28,3 +28,15 @@ https://www.alfredapp.com/help/troubleshooting/incompatible-python-workflow-libr
 위에서 fix python workflow를 통해 다시 정상 작동되었다.
 
 ![](img/2020-06-03-10-43-15.png)
+
+# 더 나은 해결 방법
+
+맥북에 연결하는 키보드 별로 단축키를 바꾸고 싶다면 위보다 더 좋은 방법이 있었다.
+
+![](img/2020-06-04-11-25-17.png)
+
+위처럼 target device로 해당 키보드를 선택하고 키보드 키 설정을 해주면, 맥북에 키보드가 연결될 때 자동으로 설정된 키를 따르게 된다.
+
+굳이 cmd + space를 눌러서 keprofile을 치면서 profile을 바꿀 필요가 없다.
+
+위의 경우는 정말 계정별로 다른 설정들이 필요할 때 사용하면 좋을 것 같다.
