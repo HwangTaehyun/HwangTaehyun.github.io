@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Daily develop record"
+description: "Daily develop recored"
 main: true
 subtitle: Novice Developer
 description: Developer based in Gyeonggi-do, South Korea. | 초보 개발자입니다.
