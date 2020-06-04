@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://HwangTaehyun.github.io/sitemap.xml
