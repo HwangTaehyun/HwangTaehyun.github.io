@@ -7,7 +7,7 @@ blog: true
 text: true
 author: "Taehyun"
 post-header: true
-header-img: "img/header.jpg"
+header-img: "img/git.png"
 order: 9
 ---
 

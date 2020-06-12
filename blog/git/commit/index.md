@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "git index"
-subtitle: "git index"
+title: "git commit"
+subtitle: "git commit"
 type: "Year in Review"
 blog: true
 text: true
 author: "Taehyun"
 post-header: true
-header-img: "img/header.jpg"
+header-img: "img/git.png"
 order: 9
 ---
 
