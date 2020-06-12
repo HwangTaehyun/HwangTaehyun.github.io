@@ -3,14 +3,14 @@
 
 .post-header {
     background-position: center center;
-    background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 1000px;
     min-height: 360px;
-    background-color: $grey-2;
-    
+    background-color: $grey-4;
+    margin: auto;
+
     @media (max-width: $break-small) {
-        min-height: 200px;
+        min-height: 360px;
     }
 }
 
@@ -22,17 +22,17 @@
     .header-project-title {
         font-weight: 700;
         font-size: 38px;
-        
+
         @media (max-width: $break-small) {
             font-size: 32px;
         }
     }
-    
+
     .header-project-des {
         padding-top: 6px;
         font-size: 20px;
         color: $grey-1;
-        
+
         @media (max-width: $break-small) {
             font-size: 17px;
         }
@@ -55,7 +55,7 @@
         font-family: $san-serif;
         font-weight: 400;
         letter-spacing: -0.009em;
-      
+
     sup {
         a.footnote {
             background: none;
@@ -65,9 +65,9 @@
     img {
         margin: 0 auto;
     }
-           
+
   }
-    
+
     a {
         transition: all 0.2s ease-in-out;
         background-position: 0% 100%, 110% 90%, 0% 98%;
@@ -75,15 +75,15 @@
         background-size: 2px 1px, 2px 1px, 1px 1px;
         background-image: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient($purple, $purple);
     }
-    
+
     a:hover {
         color: $purple;
         text-decoration-color: $purple;
     }
-    
+
         a.book-link {
             background-image: none;
-            
+
             .book-cover {
                 width: 30%;
                 display: inline-block;
@@ -91,11 +91,11 @@
                 margin: 24px 11px;
                 border-radius: 5px;
                 box-shadow: 0px 8px 24px -7px rgba(0,0,0,0.03);
-                
+
                 @media (max-width: 914px) {
                     margin: 22px 8px;
                 }
-                
+
                 @media (max-width: $break-small ) {
                     width: 30%;
                     margin: 18px 4px;
@@ -107,45 +107,45 @@
             }
         }
             a.book-link:after {
-                    background: linear-gradient(to right,rgba(0,0,0,.2) 0,rgba(0,0,0,0) 5%,rgba(0,0,0,0) 95%,rgba(0,0,0,.2) 100%);  
+                    background: linear-gradient(to right,rgba(0,0,0,.2) 0,rgba(0,0,0,0) 5%,rgba(0,0,0,0) 95%,rgba(0,0,0,.2) 100%);
             }
-    
-    
-    h1 { 
+
+
+    h1 {
         padding: 40px 0 16px 0;
         font-weight: 700;
         font-size: 28px;
         letter-spacing: -0.009em;
     }
-    
+
     h1:first-child {
         padding: 0 0 16px 0;
     }
-    
+
     h2 {
         padding: 30px 0 12px 0;
         font-weight: 700;
         font-size: 25px;
     }
-    
+
     h2:first-child {
         padding: 0 0 12px 0;
     }
-    
+
     h3 {
         padding: 20px 0 10px 0;
         font-size: 22px;
         font-weight: 600;
     }
-    
+
     h4, h5 {
         padding: 12px 0 8px 0;
     }
-    
+
     h5 {
         font-size: 17px;
     }
-    
+
     h6 {
         line-height: 1.6;
         font-size: 17px;
@@ -156,33 +156,33 @@
         @media (max-width: $break-small) {
             font-size: 15px;
         }
-        
+
     }
-    
+
     figcaption {
         text-align: center;
         font-size: 17px;
         color: $grey-1;
         line-height: 1.8;
         margin-bottom: 40px;
-        
+
         @media (max-width: $break-small ) {
             font-size: 15px;
         }
     }
-    
+
     ol {
         margin: 0;
         padding-left: 10px;
     }
-    
+
     ol {
         li {
             padding: 6px 0;
             margin-left: 8px;
         }
     }
-    
+
     ul {
         li {
             list-style: none;
@@ -191,7 +191,7 @@
             line-height: 1.65;
             position: relative;
         }
-        
+
         li:before {
             content: "";
             position: absolute;
@@ -201,12 +201,12 @@
             border-radius: 50%;
             left: -22px;
             top: 16px;
-            
+
             @media (max-width: $break-small) {
                 top: 14px;
             }
         }
-        
+
         ul {
             li {
                 list-style: none;
@@ -214,7 +214,7 @@
             }
         }
     }
-    
+
     .catalogue-draft-message {
         text-align: center;
         margin: 50px 0;
@@ -225,22 +225,22 @@
         font-size: 16px;
         color: $grey-0;
         font-weight: 500;
-        
+
         @media (max-width: $break-small ) {
             font-size: 15px;
         }
-        
+
         h1 {
             font-family: $source;
             letter-spacing: 0.01em;
             color: $purple;
             padding-bottom: 7px;
             font-size: 25px;
-            
+
             @media (max-width: $break-small ) {
                 font-size: 23px;
             }
-            
+
         }
     }
 }
@@ -270,13 +270,13 @@ sup {
     font-family: $san-serif;
     line-height: 1.2;
     letter-spacing: -0.009em;
-    
+
     @media (max-width: $break-small) {
         font-size: 28px;
         line-height: 1.4em;
     }
 }
-    
+
 .post-info>h2.post-subtitle {
     padding: 0 0 60px 0;
     font-weight: 400;
@@ -287,7 +287,7 @@ sup {
     @media (max-width: $break-small) {
         font-size: 20px;
         padding: 0 0 90px 0;
-    }        
+    }
 }
 
 .catalogue-tag {
@@ -303,11 +303,11 @@ sup {
     border-radius: 8px;
     color: #000;
     margin-bottom: 10px;
-            
+
     @media (max-width: $break-medium) {
             margin: 10px 0;
     }
-            
+
 }
 
 .post>div.footnotes {
@@ -358,11 +358,11 @@ sup {
     border: 1px solid #D8E0E7;
     border-radius: 6px;
     padding: 0 24px 20px 24px;
-    
+
     p {
         margin: 0;
     }
-    
+
     .info-title {
         margin-top: 16px;
         display: inline-block;
@@ -377,7 +377,7 @@ sup {
         color: $grey-0-80;
         font-size: 17px;
     }
-    
+
     .info-small {
         font-size: 16px;
         letter-spacing: .4px;
