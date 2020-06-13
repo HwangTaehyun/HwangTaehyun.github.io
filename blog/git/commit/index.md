@@ -17,9 +17,11 @@ git commit을 했을때 git project에는 어떤 파일들이 추가되는지 �
 
 git project의 아무 폴더에 들어가서 아래의 명령어를 실행하자
 
-echo tt >> tt.txt
-git add .
-git commit -m "tt"
+{% highlight js %}
+$ echo tt >> tt.txt
+$ git add .
+$ git commit -m "tt"
+{% endhighlight %}
 
 그리고 git project root폴더 위치에서 ls .git/objects를 쳐보면
 

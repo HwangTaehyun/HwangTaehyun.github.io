@@ -29,3 +29,8 @@ git submodule을 관리할 때, 많이 사용하는 명령어들에 대해 정�
 
 - git submodule update --init --recursive
     - project를 clone하자마자 위의 명령어로 모든 submodule들을 다 가져올 수 있다.
+
+# git submodule들 모두 제거하기
+
+- git submodule deinit --all -f
+    - project의 submodule들을 강제로 모두 제거한다.
