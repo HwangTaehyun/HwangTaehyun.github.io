@@ -75,7 +75,7 @@ vim help 문서에서 가져온 operator command들이다.
 
 먼저 복붙을 할 줄 알아야 한다.
 
-# 복사는 "y" command이다.
+## 복사는 "y" command이다.
 
 y는 yank의 줄임말로 '홱 잡아 당기다' 라는 의미를 가진다.
 
@@ -89,16 +89,16 @@ vim의 buffer의 내용을 register(unnamed & yank register)로 pull (당기다 
 
 그리고 vim의 규칙에는 operator command를 2번 입력하면 한 줄에 대해 적용이 되기 때문에 yy의 경우 한 줄 복사가 된다.
 
-# 붙여넣기는 "p" command이다.
+## 붙여넣기는 "p" command이다.
 
 p는 paste로 copy & paste의 그 paste이다.
 
 p는 내 커서의 뒤로 붙여넣는 command이고, P는 내 커서의 앞으로 붙여넣는 command이다.
 
-# 잘라내기는 "d" command이다.
+## 잘라내기는 "d" command이다.
 
 d는 delete의 줄임말로 삭제한다는 의미이다. 하지만 잘라내기라고 말한 것은 d command 또한 buffer의 내용을 unnamed register(")로 복사하기 때문이다.
 
-# 삭제 + 바로 입력모드는 "c" command이다.
+## 삭제 + 바로 입력모드는 "c" command이다.
 
 입력 모드에서 단어 삭제 후 바로 입력하기 위해 사용하는 자주 쓰는 operator command이다.
