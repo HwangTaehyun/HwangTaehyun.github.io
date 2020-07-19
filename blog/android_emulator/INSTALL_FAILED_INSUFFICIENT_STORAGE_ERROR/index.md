@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "INSTALL_FAILED_INSUFFICIENT_STORAGE 해결 방법"
+title: "Execution failed for task ':app:installDebug'"
 subtitle: "INSTALL_FAILED_INSUFFICIENT_STORAGE 해결 방법"
 type: "Year in Review"
 blog: true
