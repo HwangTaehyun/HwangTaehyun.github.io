@@ -11,7 +11,10 @@ header-img: "img/header.jpg"
 order: 9
 ---
 
-안드로이드 에뮬레이터를 사용하다가 다음과 같은 에러를 만났다.
+# ❎ 에러 발생
+
+react-native 앱 테스트를 안드로이드 에뮬레이터로 사용하고 있었는데 갑작스레 다음과 같은 에러를 만났다.
+
 ![](img/2020-07-19-16-37-09.png)
 
 > "Execution failed for task ':app:mergeExtDexDebug'."
@@ -24,7 +27,7 @@ Gradle build damon hase been stopped: JVM garbage collector thrashing and after 
 
 [해결 방법](https://stackoverflow.com/questions/59624003/daemon-is-stopping-immediately-jvm-garbage-collector-thrashing-and-after-running)
 
-# 해결
+# 🌟 해결
 
 android 폴더안의 gradle.properties 파일안에
 

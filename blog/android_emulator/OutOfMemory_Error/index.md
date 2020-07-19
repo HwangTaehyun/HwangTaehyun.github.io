@@ -11,7 +11,10 @@ header-img: "img/header.jpg"
 order: 9
 ---
 
-안드로이드 에뮬레이터를 사용하다가 다음과 같은 에러를 만났다.
+# ❎ 에러 발생
+
+react-native 앱 테스트를 안드로이드 에뮬레이터로 사용하고 있었는데 갑작스레 다음과 같은 에러를 만났다.
+
 ![](img/2020-07-19-16-32-25.png)
 
 > "Execution failed for task ':app:packageDebug'."
@@ -23,7 +26,7 @@ order: 9
 
 [해결 방법](https://github.com/facebook/react-native/issues/6799)
 
-# 해결
+# 🌟 해결
 
 android/app/src/main/AndroidManifest.xml 파일에서 <application> </applicaiton> 태그안에
 
