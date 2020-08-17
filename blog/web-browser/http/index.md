@@ -19,7 +19,7 @@ http가 무엇인지 누군가에게 설명 해주려니 막막한 느낌이 들
 
 http는 hyper text transfer protocol로 인터넷에서 데이터를 주고 받을때 사용하는 프로토콜이다. 처음에서는 HTML문서만 가능했었지만, 지금은 오디오, 이미지, 영상, 텍스트문서 등 모든 데이터가 가능하다.
 
-그리고 "http로 통신한다"라고 하는 서버들은 GET, POST, PUT 등의 http method를 마음대로 작성하면 안된다. 각 method별로 해야하는 일들이 정해져 있고, 수행한 작업에 따라 return해줘야하는 status code들도 다 규칙이 정해져 있기 때문이다.
+그리고 "http로 통신한다"라고 하는 서버들은 GET, POST, PUT 등의 http method를 마음대로 작성하면 안된다. 각 method별로 해야하는 일들이 정해져 있고, 수행한 작업에 따라 return 해야하는 status code들도 다 규칙이 정해져 있기 때문이다.
 
 해당 내용은 http/1.1 rfc문서에 나와있으며, Internet Standard rfc로도 출간이 되었다.
 
@@ -30,3 +30,5 @@ http는 hyper text transfer protocol로 인터넷에서 데이터를 주고 받�
 POST로 예를 들자면, POST는 캐시가 불가능하고, POST는 body의 request message에 있는 데이터로 새로운 식별자에 자원을 만드는데 사용을 하고, 생성했을 때는 201, 자원을 생성하지 않았을 경우에는 200, 204 status code를 return해야 한다는 등의 많은 규칙들이 명시되어 있다.
 
 이처럼 기본적으로 HTTP Method가 해야하는 일들이 모두 적혀있다. 따라서 Create를 할 때, GET Method로 서버 api를 짠다면 이건 HTTP를 지키지 않는 것이라고 생각할 수 있다.
+
+상세한 내용은 rfc 문서를 보면 더 자세히 알 수 있고, 공부를 하면서 알게 된 내용은 http/1.1은 http/1.0에서 REST 디자인이 적용된 프로토콜이라는 것이다.
