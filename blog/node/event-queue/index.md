@@ -79,7 +79,7 @@ next tick queue에 적재되는 event callback들은 Node의 글로벌 객체인
 
 이제 정말 마지막으로 하나만 더 정리하면 된다.
 
-##🔥 New Chages to the Timers and Microtasks in Node v11.0.0
+## 🔥 New Chages to the Timers and Microtasks in Node v11.0.0
 
 Node v10까지는 위와 같은 방식이였지만, Browser는 다른 방식으로 동작해서 사람들이 왜 event queue callback 처리 순서가 Node와 브라우저가 다른지 계속 문의를 했었다고 한다.
 
