@@ -1,0 +1,38 @@
+I"�<h1 id="-java-exception-종류">🚀 Java Exception 종류</h1>
+
+<p>Java에서는 exception의 종류가 크게 2가지로 나뉘게 되는데, 바로 checked exception과 unchecked exception이다.</p>
+
+<p><img src="img/2020-08-30-19-43-32.png" alt="" />
+&lt;출처: <a href="https://www.javamadesoeasy.com/2015/05/exception-handling-exception-hierarchy.html">https://www.javamadesoeasy.com/2015/05/exception-handling-exception-hierarchy.html</a>&gt;</p>
+
+<h2 id="-checked-exception">🔥 checked exception</h2>
+<p>checked exception은 컴파일 타임 때 체크되는 exception으로 개발자가 이에 대해 명시적으로 표현을 해주어야 한다.</p>
+
+<ol>
+  <li>
+    <p>checked exceoption이 생기는 메소드를 사용하는 메소드에 throws 키워드를 붙인다.</p>
+  </li>
+  <li>
+    <p>checked exception이 생기는 메소드를 try-catch 블록을 사용해 예외 처리를 해준다.</p>
+  </li>
+</ol>
+
+<h2 id="-un-checked-exception">🔥 un-checked exception</h2>
+<p>unchecked exception은 런타임에 생길 수 있는 exception들로 compile time에 체크하지 않는다. unchecked exception의 종류들로는 다음과 같다.</p>
+<ul>
+  <li>NullPointerException</li>
+  <li>ArrayIndexOutOfBoundsException</li>
+  <li>ArithmeticException</li>
+  <li>IllegalArgumentException</li>
+  <li>NumberFormatException</li>
+</ul>
+
+<p>Spring에서 제공해주는 @ResponseStatus Annotation을 직접 만든 exception class에 추가 해주고, 이 exception을 특정 상황에 throw를 해주면 @ResponseStatus Annotation value로 넣어준 status code로 http response가 client에게 보내진다.</p>
+
+<blockquote>
+  <p>Note, that when we mark an Exception class with @ResponseStatus, Spring always calls HttpServletResponse.sendError(), whether we set reason or not.
+by <a href="https://www.baeldung.com/spring-response-status">https://www.baeldung.com/spring-response-status</a></p>
+</blockquote>
+
+<p><img src="img/2020-08-31-01-53-53.png" alt="" /></p>
+:ET
