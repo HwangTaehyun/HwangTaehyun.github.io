@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "java exception 종류"
+title: "Java Exception 종류"
 subtitle: "checked exception, unchecked exception"
 type: "Year in Review"
 blog: true

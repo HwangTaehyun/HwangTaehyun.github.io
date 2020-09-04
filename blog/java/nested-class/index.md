@@ -58,7 +58,8 @@ class A {
 * Anonymous Class
 
 java는 top-level class나 static class가 아니면 static member field를 inner class와 method 안에서 허락하지 않는다. 그런데 interface는 inherently static하기 때문에 메소드에서 interface를 선언하고, 구현체를 직접 써서 사용하고 싶을 때 문제가 생기게 된다. 따라서 이 때 Anonymous Class를 이용하면, Class안에서 Interface를 선언하고 method안에서 Anonymous Class를 사용할 수 있다. (Anonymous Class는 expression이라고 docs에 쓰여져 있다. new operator를 통한 객체 생성 표현식)
-[https://stackoverflow.com/questions/41015440/declaring-a-static-variable-in-a-non-static-class-in-java](https://stackoverflow.com/questions/41015440/declaring-a-static-variable-in-a-non-static-class-in-java) 참고
+
+> [https://stackoverflow.com/questions/41015440/declaring-a-static-variable-in-a-non-static-class-in-java](https://stackoverflow.com/questions/41015440/declaring-a-static-variable-in-a-non-static-class-in-java) 참고
 
 ```java
 class A {
