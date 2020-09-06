@@ -1,13 +1,13 @@
 //post header
 
 .post-header {
-	background-position: center center;
-	background-size: cover;
-	width: 788px;
-	min-height: 353px;
+  background-position: center center;
+  background-size: cover;
 	background-color: $grey-4;
-	margin: auto;
+  width: 1200px;
+  margin: auto;
 
+  // break-small: 670px
 	@media (max-width: $break-small) {
 		min-height: 360px;
 	}
