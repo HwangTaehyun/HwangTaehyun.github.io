@@ -19,13 +19,18 @@ order: 9
 $ react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
 {% endhighlight %}
 
-android 폴더에 들어가서 아래와 같이 빌드 명령어를 치면 종종 다음과 같은 에러를 만날 수 있다.
+android 폴더에 들어가서 아래와 같이 빌드 명령어를 치면 안드로이드 앱을 빌드할 수 있다.
 
 {% highlight js %}
 $ ./gradlw assembleRelease
 {% endhighlight %}
 
-![](img/2020-07-19-16-51-10.png)
+종종 리소스 중복 에러를 만날 수 있는데, 아래 해결법에서와 같이 중복된 resource를 지워주면 해결된다!
+
+{% highlight js %}
+* What went wrong:
+Execution failed for task ':app:mergeReleaseResources'.
+{% endhighlight %}
 
 # 🌟 해결
 
