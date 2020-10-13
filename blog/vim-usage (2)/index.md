@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VIM 사용법 (2)"
+title: "VIM 이동 기술 (jump list & change list)"
 subtitle: "jump list & change list"
 type: "Year in Review"
 blog: true
@@ -15,7 +15,7 @@ VIM을 쓸 때, 가장 많이 사용하는, 가장 유용한 위치 이동 팁�
 
 바로 jump list와 change list이다.
 
-#🏃 jump list
+# 🏃 jump list
 
 vim에서는 내부 버퍼로 나의 jump들을 jump list로 관리한다.
 
@@ -31,7 +31,7 @@ jump list에 등록이 되면 이제 ctrl-O, ctrl-I를 통해 jump list 앞 뒤�
 
 jump list는 vim에서 :ju 명령어를 통해 확인할 수 있다.
 
-#🚴 change list
+# 🚴 change list
 
 vim에서는 라인 수정 위치(라인 위치)를 change list에 관리한다.
 
@@ -43,7 +43,7 @@ change list에 등록이 되면 이제 'g;', 'g,'를 통해 change list 앞 뒤�
 
 change list는 vim에서 :changes 명령어를 통해 확인할 수 있다.
 
-#💡 느낀점
+# 💡 느낀점
 
 jump list는 알고 있었지만, change list의 경우 vim을 사용하고서도 꽤 늦게 알게 된 기능이였다.
 
