@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Could not get BatchedBridge, make sure your bundle is packaged correctly"
-subtitle: "Could not get BatchedBridge, make sure your bundle is packaged correctly"
+title: "node chalk module 사용법"
+subtitle: "node chalk module 사용법"
 type: "Year in Review"
 blog: true
 text: true
@@ -11,12 +11,11 @@ header-img: "img/header.jpg"
 order: 9
 ---
 
-가끔 react-native를 사용하다가 android에서 다음과 같은 에러를 만난다.
+chalk를 사용하는데 import 후 사용방법대로 사용해봤지만 컬러가 나오지 않았다.
 
-![](img/2020-10-23-10-49-28.png)
+stack overflow에서 검색을 하고, 다음과 같은 초기화 문구를 사용하니 컬러를 사용할 수 있었다.
 
-메트로를 재시작해 번들링을 새로 해주면 된다.
-
-{% highlight js %}
-react-native start --reset-cache
-{% endhighlight %}
+```js
+const ctx = new chalk.Instane({level:3});
+console.log(ctx.red("red!!"))
+```
