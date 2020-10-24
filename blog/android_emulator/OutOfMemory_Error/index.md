@@ -7,7 +7,7 @@ blog: true
 text: true
 author: "Taehyun"
 post-header: true
-header-img: "img/header.jpg"
+header-img: ""
 order: 9
 ---
 
@@ -17,10 +17,11 @@ react-native 앱 테스트를 안드로이드 에뮬레이터로 사용하고 �
 
 ![](img/2020-07-19-16-32-25.png)
 
-> "Execution failed for task ':app:packageDebug'."
-> ...
->\> A failure occured while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
-    >>\> Java heap space
+{% highlight js %}
+* What went wrong
+Execution failed for task ':app:packageDebug'.
+> A failure occured while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade Java heap space>
+{% endhighlight %}
 
 에러 문구로 유추하건데.. Java의 힙 메모리가 부족하다는 에러로 유추해보고 찾은 결과 react-native github issue를 보고 따라해 문제를 해결할 수 있었다.
 

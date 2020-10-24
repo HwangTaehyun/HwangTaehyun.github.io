@@ -17,13 +17,16 @@ react-native 앱 테스트를 안드로이드 에뮬레이터로 사용하고 �
 
 ![](img/2020-07-19-16-37-09.png)
 
-> "Execution failed for task ':app:mergeExtDexDebug'."
-> ...
->\> A failure occured while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
-    >>\> java.lang.OutOfMemoryError (no error message)
+{% highlight js %}
+* What went wrong
+Execution failed for task ':app:mergeExtDexDebug'.
+> A failure occured while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
+   > java.lang.OutOfMemoryError (no error message)
 
-> What went log:
+* What went wrong
 Gradle build damon hase been stopped: JVM garbage collector thrashing and after running out of JVM memory
+{% endhighlight %}
+
 
 [해결 방법](https://stackoverflow.com/questions/59624003/daemon-is-stopping-immediately-jvm-garbage-collector-thrashing-and-after-running)
 
