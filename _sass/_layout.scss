@@ -1,6 +1,6 @@
 .container {
   margin: 40px auto;
-  max-width: 750px;
+  max-width: 1000px;
   width: 80%;
     @media (max-width: $break-small) {
         width: 88%;
@@ -12,7 +12,7 @@ main,
 footer>.footer_wrap,
 .nav-container {
   margin: 0 auto;
-  max-width: 750px;
+  max-width: 850px;
   width: 80%;
     @media (max-width: $break-small) {
         width: 88%;
@@ -42,22 +42,22 @@ footer>.footer_wrap,
       font-family: $source;
       display: inline-block;
       margin: 0 40px 0 0;
-      
+
       &:last-child {
           margin-right: 0;
       }
-      
+
       @media (max-width: $break-small) {
           margin: 0 24px 0 0;
           font-size: 16px;
       }
-      
+
   }
     li:hover {
           opacity: 0.5;
     }
 }
-    
+
 .active {
     padding-bottom: 6px;
     border-bottom: 2px solid $grey-0;
@@ -84,7 +84,7 @@ footer {
     color: $default-tint;
     border-top: 1px solid $grey-2;
     border-bottom: 1px solid $grey-2;
-    
+
     .footer_wrap {
         font-style: normal;
         position: relative;
@@ -101,11 +101,11 @@ footer {
                 font-size: 16px;
                 color: $default-tint;
             }
-            
+
             a.email:hover {
                 opacity: .6;
             }
-            
+
             .accounts {
                 margin-top: 36px;
                 a {
