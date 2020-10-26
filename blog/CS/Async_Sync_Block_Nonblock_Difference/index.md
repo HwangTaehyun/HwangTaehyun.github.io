@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Async vs Sync vs Block vs Non-Block 비교"
-subtitle: "Async vs Sync vs Block vs Non-Block 비교"
+subtitle: "Async, Sync, Block, Non-Block 차이점"
 type: "Year in Review"
 blog: true
 text: true

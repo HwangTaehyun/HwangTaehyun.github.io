@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "git submodule"
-subtitle: "git submodule"
+title: "git submodule 사용법"
+subtitle: "git submodule example"
 type: "Year in Review"
 blog: true
 text: true

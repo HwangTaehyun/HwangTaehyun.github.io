@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "rfc란?"
+title: "rfc (request for comment)"
 subtitle: "rfc 완벽 분석"
 type: "Year in Review"
 blog: true

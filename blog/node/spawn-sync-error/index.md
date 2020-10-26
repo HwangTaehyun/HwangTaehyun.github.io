@@ -15,7 +15,9 @@ order: 9
 
 child_process의 spawnSync 함수를 쓰던 중 다음과 같은 에러를 보게 되었다.
 
+{% highlight js %}
 > Error: spawnSync /bin/sh ENOENT
+{% endhighlight %}
 
 에러문만 보고는 왜 그런지 알 수 없었지만 구글링을 하고 나와 같은 에러가 있는 글을 보게 되었다.
 

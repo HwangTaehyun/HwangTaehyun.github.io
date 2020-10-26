@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "크롬 탭 복사 복제"
-subtitle: "크롬 탭 복사 복제"
+subtitle: "Chrome tab copy"
 type: "Year in Review"
 blog: true
 text: true
@@ -11,7 +11,7 @@ header-img: "img/header.jpg"
 order: 9
 ---
 
-# 크롬 탭 복사 복제
+# 크롬 탭 복사 복제 (Chrome tab copy)
 
 [크롬 탭 복사 복제 알려주는 링크](https://m.blog.naver.com/3xtabom/221157498055)
 

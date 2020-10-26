@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Java Exception 종류"
-subtitle: "checked exception, unchecked exception"
+subtitle: "checked exception, unchecked exception difference"
 type: "Year in Review"
 blog: true
 text: true

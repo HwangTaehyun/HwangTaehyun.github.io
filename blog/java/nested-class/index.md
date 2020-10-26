@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Java Nested Class"
-subtitle: "Nested Class 종류"
+subtitle: "Java Nested Class 종류"
 type: "Year in Review"
 blog: true
 text: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "node chalk module 사용법"
-subtitle: "node chalk module 사용법"
+subtitle: "node chalk module example"
 type: "Year in Review"
 blog: true
 text: true

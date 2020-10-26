@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "git reset & rebase"
-subtitle: "git reset & rebase 사용법"
+title: "git reset & git rebase 사용해보기"
+subtitle: "git reset & git rebase example"
 type: "Year in Review"
 blog: true
 text: true
@@ -48,4 +48,3 @@ git reset은 많이 헷갈리는 명령어이지만 아래만 기억하면 쉽�
 [https://stackoverflow.com/questions/2973996/git-rebase-without-changing-commit-timestamps](https://stackoverflow.com/questions/2973996/git-rebase-without-changing-commit-timestamps)
 
 위의 링크를 보면 rebase후에 commiter의 time stamp도 바꾸는 방법이 나와있다.
-

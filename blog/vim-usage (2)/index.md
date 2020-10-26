@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "VIM 이동 기술 (jump list & change list)"
-subtitle: "jump list & change list"
+title: "vim jump list & change list)"
+subtitle: "vim jump list & change list"
 type: "Year in Review"
 blog: true
 text: true

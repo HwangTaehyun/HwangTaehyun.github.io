@@ -15,7 +15,9 @@ order: 9
 
 docker image로 mariadb를 사용하면서 한글 데이터를 insert하는 순간 다음과 같은 에러를 만났다.
 
+{% highlight js %}
 > ERROR 1366 (HY000) : incorrect string value : for column
+{% endhighlight %}
 
 에러 문구와 상황을 보았을 때, 인코딩과 관련된 문제라는 것을 알았는데, 여기서 정말 고생을 했다.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "process & thread difference"
+title: "프로세스 스레드 비교"
 subtitle: "process & thread difference"
 type: "Year in Review"
 blog: true

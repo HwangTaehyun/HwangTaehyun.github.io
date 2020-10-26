@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "VIM-사용법"
-subtitle: "VIM MODE & OPERATOR Command 정리!"
+title: "vim mode"
+subtitle: "vim mode & operator command"
 type: "Year in Review"
 blog: true
 text: true
