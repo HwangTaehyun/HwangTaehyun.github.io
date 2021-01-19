@@ -21,7 +21,7 @@ $ react-native bundle --platform android --dev false --entry-file index.js --bun
 android 폴더에 들어가서 아래와 같이 빌드 명령어를 치면 안드로이드 앱을 빌드할 수 있다.
 
 {% highlight js %}
-$ ./gradlw assembleRelease
+$ ./gradlew assembleRelease
 {% endhighlight %}
 
 종종 리소스 중복 에러를 만날 수 있는데, 아래 해결법에서와 같이 중복된 resource를 지워주면 해결된다!
