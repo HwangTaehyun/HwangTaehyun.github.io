@@ -1,7 +1,11 @@
+- name: JavaScript
+- name: TypeScript
+- name: React
+- name: ReactNative
+- name: Mobx
 - name: C++
-- name: Javascript
 - name: Java
 - name: Linux
-- name: Spring
 - name: Node
+- name: Prisma
 - name: MySQL
