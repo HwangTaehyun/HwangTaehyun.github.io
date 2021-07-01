@@ -27,6 +27,12 @@ Execution failed for task ':app:packageDebug'.
 
 [해결 방법](https://github.com/facebook/react-native/issues/6799)
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-4126928306531254" data-ad-slot="4466539956"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 # 🌟 해결
 
 android/app/src/main/AndroidManifest.xml 파일에서 <application> </applicaiton> 태그안에
