@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Kubernetics (1)"
-subtitle: "Kubernetics 배경지식 정리"
+title: "Kubernetes (1)"
+subtitle: "Kubernetes 배경지식 정리"
 type: "Year in Review"
 blog: true
 text: true
