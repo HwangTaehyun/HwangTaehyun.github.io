@@ -1,9 +1,19 @@
+fourth-place:
+- name: AIRS Medical
+  role: Front Enginner
+  date: 2021. Sep. - Present
+
+third-place:
+- name: Coupang
+  role: Front Enginner
+  date: 2021. Apr. - 2021. Sep
+
 second-place:
 - name: Tmax A&C
   role: Software Developer & Researcher
-  date: 2018. August - Present
+  date: 2018. Aug. - 2021. Apr.
 
 first-place:
 - name: LIST
   role: Brain Imaging and Engineering Researcher
-  date: 2016. MAR - 2018. August
+  date: 2016. Mar. - 2018. Aug.

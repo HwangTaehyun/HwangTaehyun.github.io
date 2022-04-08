@@ -1,4 +1,44 @@
 <li class="workplace transition">
+    {% for fourth in site.data.experience.fourth-place %}
+    <p class="workplace-name">
+             <a class="transition" href="https://tmaxanc.com/#!/main" target="_blank">
+                {{ fourth.name }}
+             </a>
+            <div class="underline-mask transition"></div>
+            <div class="underline"></div>
+    </p>
+    <div class="work-info">
+        <p>
+            {{ fourth.role }}
+        </p>
+        <p class="work-sub-info">
+            {{ fourth.date }}
+        </p>
+    </div>
+    {% endfor %}
+</li>
+
+<li class="workplace transition">
+    {% for third in site.data.experience.third-place %}
+    <p class="workplace-name">
+             <a class="transition" href="https://tmaxanc.com/#!/main" target="_blank">
+                {{ third.name }}
+             </a>
+            <div class="underline-mask transition"></div>
+            <div class="underline"></div>
+    </p>
+    <div class="work-info">
+        <p>
+            {{ third.role }}
+        </p>
+        <p class="work-sub-info">
+            {{ third.date }}
+        </p>
+    </div>
+    {% endfor %}
+</li>
+
+<li class="workplace transition">
     {% for second in site.data.experience.second-place %}
     <p class="workplace-name">
              <a class="transition" href="https://tmaxanc.com/#!/main" target="_blank">
